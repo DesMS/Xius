@@ -1,0 +1,5 @@
+run = "bash build.sh && bash run.sh"
+entryPoint = "src/boot.asm"
+
+[nix]
+channel = "stable-21_11"
